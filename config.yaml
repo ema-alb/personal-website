@@ -18,8 +18,8 @@ params:
   # favicon: "/fav.png"
 
   theme:
-    disableThemeToggle: false
-    # defaultTheme: "light" # dark
+    disableThemeToggle: true
+    defaultTheme: "light" # dark
 
   # Hero section (introduction)
   hero:
