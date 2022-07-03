@@ -1,0 +1,274 @@
+baseURL: "https://ema-alb.github.io"
+languageCode: en-us
+title: Emanuele Alberti's website
+theme: hugo-profile
+
+# Markdown configs
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Parameters to fill the website
+params:
+  # Shown on the top-left side of the page
+  # title: "Hugo Profile"
+  # description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  # favicon: "/fav.png"
+
+  theme:
+    disableThemeToggle: false
+    # defaultTheme: "light" # dark
+
+  # Hero section (introduction)
+  hero:
+    enable: true
+    intro: "Ciao! I am"
+    title: "Emanuele Alberti"
+    # subtitle: "computer engineer 💻<br>trader 📈<br>geek 🤓"
+    subtitle: ":laptop: computer engineer,<br>:chart_increasing: trader,<br>:nerd_face: geek."
+    content: "Curious, dynamic, eager to learn, I embrace change positively to expand my knowledge across fields I consider interesting.
+    Tech & AI is my passion, finance my challenge.<br>
+    Find out more about my ongoing journey!"
+    image: img/me.jpg
+
+  about:
+    enable: true
+    image: img/me-serious.png
+    caption: "I want to positively impact and improve as many people's lives as possible through technology."
+    content: "Welcome to my personal website! Congrats, by landing on this webpage you gained +1 point in awesomeness! :partying_face:<br>
+    Let me introduce myself: I'm Ema (people abroad confuse it with \"Emma\"), an Italian guy :it: who's fond of technology :laptop: and solving problems :puzzle_piece: (the more complex, the better!).
+    I consider myself a person who works diligently, but also likes to cheer the team up with some jokes and memes :smile:.<br>
+    My journey starts at the age of 14, when I started tinkering with technology by flashing a stock firmware on my first cellphone (the glorious Samsung U700 EVO) to remove all the 
+    carrier's bloatware from the operating system. From then on, my next Android and iOS devices were often tweaked and modded in order to get the best out them (whether it
+    was for performance :rocket: or energy efficiency :battery:): that's how curious I am to discover how things work and how to improve them. I have been studying computer science and programming ever since.<br>
+    Fast forward few years and here I am, a graduate :mortar_board: computer engineer 👨🏼‍💻 specialized in data analysis who enjoys to apply his know-how in challenging fields.
+    Due to my competitiveness, I am now challenging myself by working in the financial world as an *Equity ETF trader* :chart:, where both the competition :smirk: and the stakes :moneybag: are very high.
+    Nonetheless, I also keep working on data-related tasks :bar_chart:, as I am and have been assigned different responsibilities which allow me to work closely with data and machine learning :robot:, my core competencies.<br><br>
+    I'm so grateful that I've been surrounded mostly by very talented and clever people that fostered in me a strong desire to get better at what I do and learn more.
+    Kudos to my current and past colleagues, you really inspire me!<br><br>
+    
+    **Sports I enjoy**: go-karting :checkered_flag:, soccer (I'm a goalkeeper) :soccer_ball:, weightlifting 🏋🏼‍♂️, ski :skier:, swimming 🏊🏼‍♂️, basketball :basketball:, volleyball :volleyball: and billiards :8ball:.<br>
+    **What I love :heart:**: my cat :cat2:, pizza :pizza:, boardgames :game_die: ([Puerto Rico](https://boardgamegeek.com/boardgame/108687/puerto-rico) my fav, [play with me!](https://boardgamearena.com/player?id=85598935)),
+    lofi music :headphones:, languages :earth_africa:, and emojis (did anyone notice? :eyes:).<br>
+    **Big NOs 👎🏼**: ideological extremisms (of all sorts and aspects)."
+
+  skills:
+    enable: false
+    content: "Here are a few technologies I've been working with recently:"
+    items:
+      - "HTML"
+      - "CSS"
+      - "JavaScript"
+      - "React"
+      - "Node"
+      - "Express"
+
+  experience:
+    enable: true
+    items:
+      - job: "Quantitative trader + Data responsibilities"
+        company: "Banca Sella Holding"
+        companyUrl: "https://sellagroup.eu"
+        date: "Jan 2021 - current"
+        info:
+          enable: false
+        content: "Leveraging my data science skills, I work on developing and deploying statistical and Machine Learning models for 
+          financial markets. In parallel, I am responsible of most data-related tasks such as database management and optimization,
+          and business-critical data pipelines. For instance, I re-engineered the way financial data was stored and accessed, achieving
+          massive improvements in both read time (5x faster) and disk usage (87% space saved).<br> 
+          Core experise: [scikit-learn](https://scikit-learn.org), [Keras](https://keras.io), [PostgreSQL](https://www.postgresql.org), [Excel](https://www.microsoft.com/en-us/microsoft-365/excel) (advanced use)."
+      - job: "Teaching assistant"
+        company: "Politecnico di Torino"
+        companyUrl: "https://www.polito.it"
+        date: "Jan 2020 - Dec 2020"
+        info:
+          enable: true
+          content: "while being a PhD student"
+        content: "I held practice exercise classes for [Informatica 2020/2021](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=14BHDOA) course."
+      - job: "Research intern"
+        company: "ItalDesign"
+        companyUrl: "https://www.italdesign.it"
+        date: "Mar 2019 - Sep 2019"
+        info:
+          enable: false
+        content: "I worked on an autonomous driving project in collaboration with [Audi](https://www.audi.com) for my master thesis project.
+          We worked on the creation of a dataset for the [Semantic Segmentation](https://en.wikipedia.org/wiki/Image_segmentation) task which was then used to benchmark the
+          state-of-the-art neural networks tackling the issue of domain shift.<br>
+          I worked with the [PyTorch](https://pytorch.org) framework and extensively used [CARLA simulator](https://www.carla.org), built on [Unreal Engine](https://www.unrealengine.com)."
+      - job: "Laboratory technical assistant"
+        company: "Politecnico di Torino - LABINF"
+        companyUrl: "https://www.labinf.polito.it"
+        date: "Sep 2018 - Feb 2019"
+        info:
+          enable: true
+          content: "while being a graduate student"
+        content: "I had the responsibility of supervising the access of students to the Computer Engineering department’s lab (LABINF),
+          checking the working  status of each working station and performing occasional maintenance.<br>
+          I boosted my knowledge of the operating systems (both Windows and Linux), shell scripting, Unix filesystem, and command line."
+      - job: "Teaching assistant"
+        company: "Politecnico di Torino"
+        companyUrl: "https://www.polito.it"
+        date: "Feb 2018 - Feb 2019"
+        info:
+          enable: true
+          content: "while being a graduate student"
+        content: "I helped professors during the practice in laboratory for [Informatica 2018/2019](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=14BHDOA)
+          and [Tecniche di Programmazione 2018/2019](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=03FYZPL), core courses for computer and management engineers."
+      - job: "Salesperson"
+        company: "Foot Locker"
+        companyUrl: "https://footlocker.com"
+        date: "Nov 2015 - Nov 2018"
+        info:
+          enable: false
+        content: "I worked every weekend on the sales floor. I soon mastered to engage and deal with customers, 
+        managing various situations and requests. I largely improved my communication skills, team work capabilities 
+        and learnt to focus on the customer's need, delivering the most suitable solution.
+        Awarded \"employee of the week\" on multiple occasions, despite working just one day a week."
+
+  education:
+    enable: true
+    items:
+      - title: "PhD student in Computer Engineering – Computer Vision"
+        school:
+          name: "Politecnico di Torino, Italy"
+          url: "https://www.polito.it"
+        date: "Oct 2019 - Dec 2020 (*before time*)"
+        content: |-
+          During the first and only year of my PhD I delved deeper into advanced Deep Learning methods, focusing mainly on the domain shift issue in Computer Vision, i.e. when the data distribution changes from train to test time.<br>
+          Though brief, this experience taught me to effectively read academic papers, work on complicated problems and strive to improve the state-of-the-art, trying to bring valuable contributions to the scientific community.<br>
+          I enhanced my knowledge of Convolutional Neural Networks, the ability to spot alternative and meliorative solutions to existing ones, and the capability of working under stress and tight deadlines.<br>
+          I was also selected by the [Collège des Ingénieurs](https://cdi.eu) to take part to the [Innovation for Change (I4C) program](https://www.innovation4change.eu) wherein I worked on a project 
+          for the [United Nations Interregional Crime and Justice Research Institute (UNICRI)](https://unicri.it) on disinformation.
+          
+          
+          Attended courses:
+          - [Adversarial training of neural networks](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01UJBRV&p_a_acc=2020&p_header=S&p_lang=IT&multi=N)
+          - [Entrepreneurship and start-up creation](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01UNRIU&p_a_acc=2020&p_header=S&p_lang=IT&multi=N) (+ I4C program)
+          - [Human-AI Interaction](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01UJUIU&p_a_acc=2020&p_header=S&p_lang=IT&multi=N)
+          - [Mimetic Learning](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=03QTIIU&p_a_acc=2020&p_header=S&p_lang=EN&multi=N)
+          
+          [Academic highlights](https://scholar.google.it/citations?user=eRZSEd8AAAAJ):
+          - Semantic Segmentation: building on top of [my master thesis work](https://webthesis.biblio.polito.it/12513/), I worked on the paper "[IDDA: a large-scale multi-domain dataset for autonomous driving](https://scholar.google.it/citations?view_op=view_citation&hl=en&user=eRZSEd8AAAAJ&citation_for_view=eRZSEd8AAAAJ:d1gkVwhDpl0C)",
+          accepted to both [IEEE Robotics and Automation Letters (RA-L)](https://www.ieee-ras.org/publications/ra-l) journal and [International Conference on Intelligent Robots and Systems (IROS)](https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros) conference;
+          - Radar imaging: working on a non-disclosable project with the [INXPECT](https://www.inxpect.com/it) startup;
+          - Action recognition: I worked on the paper "[Domain generalization through audio-visual relative norm alignment in first person action recognition](https://scholar.google.it/citations?view_op=view_citation&hl=en&user=eRZSEd8AAAAJ&citation_for_view=eRZSEd8AAAAJ:IjCSPb-OGe4C)", accepted to the [IEEE/CVF Winter Conference on Applications of Computer Vision (WACW)](https://wacv2022.thecvf.com/home) conference;
+          - Fake news: during the I4C program, I worked on the paper "[Contrasting information disorder by leveraging people’s biases and pains: innovating in the post-truth era](https://scholar.google.it/citations?view_op=view_citation&hl=en&user=eRZSEd8AAAAJ&citation_for_view=eRZSEd8AAAAJ:W7OEmFMy1HYC)"
+          published in the [CERN IdeaSquare Journal of Experimental Innovation (CIJ)](https://e-publishing.cern.ch/index.php/CIJ/).
+
+      - title: "Master Degree in Computer Engineering – Data Science specialization"
+        school:
+          name: "Politecnico di Torino, Italy"
+          url: "https://www.polito.it"
+        date: "Oct 2017 - Oct 2019"
+        GPA: "110 out of 110"
+        content: |-
+          Driven by my passion for coding, I specialized in data analysis. During these years I got much more
+          practical by having multiple group projects, some of which are listed in the [projects](/#projects) section.
+          
+          Thesis project: "[Deep Semantic Segmentation across environments for autonomous driving](https://webthesis.biblio.polito.it/12513/)"
+          
+          Core courses:
+            - [Machine Learning and Artificial Intelligence](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01SQIOV)
+            - [Software Engineering](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=04GSPOV)
+            - [Data Spaces](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01RLPOV)
+            - [Big Data: Architectures and Data Analytics](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01QYDOV)
+            - [Data Science and Database Technology](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01NVVOV)
+            - [System and device programming](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01NYHOV)
+            - [Computer system security](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=02KRQOV)
+      - title: "Bachelor Degree in Computer Engineering"
+        school:
+          name: "Politecnico di Torino, Italy"
+          url: "https://www.polito.it"
+        date: "Sep 2014 - Sept 2017"
+        content: |-
+          Core courses:
+            - [Informatica (Informatics)](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=12BHDOA)
+            - [Algoritmi e programmazione (Advanced Algorithms and Programming)](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=02MNOOA)
+            - [Ottimizzazione per il problem solving (Optimization Methods and Algorithms)](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01QNKOA)
+            - [Object Oriented Programming](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=02JEYOA)
+            - [Sistemi Operativi (Operating Systems)](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=05CJCOA)
+            - [Basi di dati (Databases Management Systems)](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=04AFQOA)
+
+
+  projects:
+    enable: true
+    items:
+      - title: ItalDesign DAtaset (IDDA)
+        content: "The largest synthetic dataset for semantic segmentation >1M Full HD images taken in 105 different separated scenarios. Each RGB image is pixel-wise labeled
+         with semantic (what is it?) and depth (how far is it?) value."
+        image: img/idda-gif.gif
+        buttons:
+          - name: website
+            link: https://idda-dataset.github.io/home/
+          - name: paper
+            link: https://ieeexplore.ieee.org/abstract/document/9140347
+        badges:
+          - "dataset"
+          - "domain shift"
+          - "semantic segmentation"
+          - "Unreal Engine"
+      - title: ALFIE app
+        content: "For the I4C program I worked with other PhD students, MBA fellows and UNICRI (a United Nations department) to address the problem of fake news by ideating an app which could help with easing
+        the retrieval of key information from reliable and verified sources, as well as helping social-media users to break the echo-chamber they might be stuck in."
+        image: img/alfie.png
+        buttons:
+          - name: YouTube video
+            link: https://youtu.be/D2LCCDTolow?t=1149
+        badges:
+          - "fake news"
+          - "United Nations"
+      - title: Bank marketing campaign analysis
+        content: "Given a dataset of customers contacted by phone for a marketing campaign of a bank, the goal is to build a model that predicts whether a customer
+        will subscribe a term deposit."
+        image: img/bank-project-img.png
+        buttons:
+          - name: Jupyter Notebook
+            link: https://nbviewer.org/github/lrobberl/ds_project/blob/master/Report_finale2.ipynb
+        badges:
+          - "classification"
+          - "data visualization"
+          - "exploratory data analysis"
+          - "Tableau"
+      - title: Breast cancer subtypes
+        content: "Given a dataset of genomic data from multiple patients diagnosed with breast cancer, both supervised and unsupervised methods were employed to
+        explore the data and classify each different cancer subtype. Moreover, feature selection was performed in the attempt to assess which of the >60k genes were most
+        informative for the issue in exam."
+        image: img/bio-info-img.png
+        buttons:
+          - name: Jupyter Notebook
+            link: https://nbviewer.org/github/DarioFontanel/Breast-cancer-classification/blob/master/main.ipynb
+          - name: slides
+            link: misc/bio-info-slides.pdf
+        badges:
+          - "classification"
+          - "clustering"
+          - "feature selection"
+
+  achievements:
+    enable: true
+    items:
+      - title: Vodafone "TOBi Hack" 2019 – hackaton
+        content: "I ranked #1 in this [hackaton](https://www.vodafone.it/portal/Privati/TOBi-Hack) organized by [Vodafone Italia](https://www.vodafone.it), 
+        where my team and I showcased a solution to make TOBi, Vodafone's virtual chatbot, smarter and more proactive towards the user.<br>
+        The solution leveraged clustering techniques to spot anomalies in customers' reports of service outages, improving the experience of future requests
+        by anticipating the customers' need and proposing an automated explanation of the ongoing issue. <br>
+        More info: [news](https://poliflash.polito.it/studenti_polito/emanuele_alberti_primo_all_hackathon_di_vodafone_a_milano), [project slides](misc/TOBiHack2019.pdf)
+        "
+        image: img/tobi.jpg
+      - title: "\"Torre VTS di Genova\" – scholarship"
+        content: "Awarded the scholarship for being the best student at [IIS \"Q. Sella\" - Biella](https://www.itis.biella.it) among all technical specializations
+        for the 2014/2015 school year.<br>
+        The scholarship was established in memory of Davide Morella, former IIS \"Q. Sella\" student, victim of the [incident of the Tower of the Pilots of Genova](https://it.wikipedia.org/wiki/Tragedia_della_torre_dei_piloti_di_Genova).<br>
+        More info: [news](https://www.newsbiella.it/2015/10/23/leggi-notizia/argomenti/costume-e-societa/articolo/va-a-emanuele-alberti-la-borsa-di-studio-torre-vts-di-genova.html)"
+        image: img/borsa-studio.jpg
+
+  contact:
+    enable: true
+    content: "Connect with me!"
+    content2: "I’ll try my best to get back to you as soon as possible!"
+    btnName: Mail me
+    email: ema.alberti@gmail.com
+    github: https://github.com/ema-alb
+    linkedin: https://www.linkedin.com/in/emanuele-alberti
