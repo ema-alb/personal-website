@@ -149,7 +149,7 @@ params:
           - [Human-AI Interaction](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01UJUIU&p_a_acc=2020&p_header=S&p_lang=IT&multi=N)
           - [Mimetic Learning](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=03QTIIU&p_a_acc=2020&p_header=S&p_lang=EN&multi=N)
           
-          [Academic highlights](https://scholar.google.it/citations?user=eRZSEd8AAAAJ):
+          Academic highlights ([Google Scholar profile](https://scholar.google.it/citations?user=eRZSEd8AAAAJ)):
           - Semantic Segmentation: building on top of [my master thesis work](https://webthesis.biblio.polito.it/12513/), I worked on the paper "[IDDA: a large-scale multi-domain dataset for autonomous driving](https://scholar.google.it/citations?view_op=view_citation&hl=en&user=eRZSEd8AAAAJ&citation_for_view=eRZSEd8AAAAJ:d1gkVwhDpl0C)",
           accepted to both [IEEE Robotics and Automation Letters (RA-L)](https://www.ieee-ras.org/publications/ra-l) journal and [International Conference on Intelligent Robots and Systems (IROS)](https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros) conference;
           - Radar imaging: working on a non-disclosable project with [INXPECT](https://www.inxpect.com/it) startup;
@@ -195,6 +195,18 @@ params:
   projects:
     enable: true
     items:
+      - title: Domain Generalization Through Audio-Visual Relative Norm Alignment in First Person Action Recognition
+        content: "Accepted to the WACV 2022 conference, this paper introduces a novel approach to address the domain shift problem, i.e. when train and test set
+        differ significantly, worsening the model performance. With the illustrated method we teach the network to use more effectively the information coming from both
+        audio and video modality, adapting better to previously unseen scenarios."
+        image: img/RNA-img.png
+        buttons:
+          - name: WACV 2022 paper
+            link: https://openaccess.thecvf.com/content/WACV2022/html/Planamente_Domain_Generalization_Through_Audio-Visual_Relative_Norm_Alignment_in_First_Person_WACV_2022_paper.html
+        badges:
+          - "paper"
+          - "domain generalization"
+          - "action recognition"
       - title: ItalDesign DAtaset (IDDA)
         content: "The largest synthetic dataset for semantic segmentation >1M Full HD images taken in 105 different separated scenarios. Each RGB image is pixel-wise labeled
          with semantic (what is it?) and depth (how far is it?) value."
@@ -205,6 +217,7 @@ params:
           - name: paper
             link: https://ieeexplore.ieee.org/abstract/document/9140347
         badges:
+          - "paper"
           - "dataset"
           - "domain shift"
           - "semantic segmentation"

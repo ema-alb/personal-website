@@ -64,7 +64,7 @@ header .navbar {
 .tooltip-inner {
     line-height: 1rem;
 }
-.tooltip .tooltip-arrow { 
+.tooltip .tooltip-arrow {
     visibility: hidden !important;
 }
 
